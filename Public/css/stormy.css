@@ -1,0 +1,177 @@
+/*body {*/
+    /*background-image: url("../images/stormy-weather.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*width: 100%;*/
+/*}*/
+
+h1 {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+    font-family: Trebuchet;
+    /*display: flex;*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+body {
+    background-image: url("../images/stormy-weather.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 793px;
+}
+p {
+    color: white;
+    border: 4px double;
+    font-family: Arial;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5rem;
+}
+
+#computer {
+    position: relative;
+    justify-content: right;
+    float: right;
+    left: 50px;
+    top: -20px;
+}
+
+#computer img {
+    height: 20px;
+    filter: brightness(100%);
+}
+
+#phone {
+    position: relative;
+    justify-content: right;
+    float: right;
+    right: 70px;
+    top: -20px;
+}
+
+#phone img {
+    height: 20px;
+    /*filter: brightness(400%);*/
+    filter: invert(60%);
+}
+
+#tablet {
+    position: relative;
+    justify-content: right;
+    float: right;
+    margin-right: 20px;
+    top: -20px;
+}
+#tablet img {
+    height: 20px;
+    /*filter: brightness(100%);*/
+    filter: invert(30%);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 375px){
+p {
+    margin-left: 6%;
+}
+}
+/*@media screen and (max-width: 400px) and (min-width: 360px) {*/
+    /*h1 {*/
+        /*justify-content: center;*/
+        /*position: relative;*/
+        /*display: inline;*/
+        /*font-size: 30px;*/
+        /*padding-right: 147px;*/
+    /*}*/
+    /*#icon {*/
+        /*top: 7px;*/
+        /*right: 22px;*/
+    /*}*/
+    /*#icon img {*/
+        /*width: 30%;*/
+        /*height: 30%;*/
+        /*filter: brightness(100%);*/
+    /*}*/
+    /*#icon2 {*/
+        /*top: 7px;*/
+        /*right: -10px;*/
+    /*}*/
+    /*#icon2 img {*/
+        /*width: 30%;*/
+        /*height: 30%;*/
+        /*filter: invert(100%);*/
+    /*}*/
+    /*#icon3 {*/
+        /*top: 7px;*/
+        /*right: -40px;*/
+    /*}*/
+    /*#icon3 img {*/
+        /*width: 30%;*/
+        /*height: 30%;*/
+        /*filter: invert(30%);*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 768px) and (min-width: 750px) {*/
+    /*h1 {*/
+        /*justify-content: center;*/
+        /*position: relative;*/
+        /*display: inline;*/
+        /*font-size: 60px;*/
+        /*padding-right: 340px;*/
+    /*}*/
+
+    /*body {*/
+        /*background-image: url("../images/stormy-weather.jpg");*/
+        /*background-size: 1200px 1024px;*/
+    /*}*/
+    /*p {*/
+        /*justify-content: center;*/
+        /*font-size: 27px;*/
+    /*}*/
+    /*#icon {*/
+        /*top: 14px;*/
+        /*right: 120px;*/
+    /*}*/
+    /*#icon img {*/
+        /*width: 50%;*/
+        /*height: 50%;*/
+        /*filter: brightness(100%);*/
+    /*}*/
+    /*#icon2 {*/
+        /*top: 14px;*/
+        /*right: 60px;*/
+    /*}*/
+    /*#icon2 img {*/
+        /*width: 50%;*/
+        /*height: 50%;*/
+        /*filter: invert(30%);*/
+    /*}*/
+    /*#icon3 {*/
+        /*top: 14px;*/
+        /*right: 10px;*/
+    /*}*/
+    /*#icon3 img {*/
+        /*width: 50%;*/
+        /*height: 50%;*/
+        /*filter: invert(100%);*/
+    /*}*/
+/*}*/
+
+
+
+
+
+
+
+
+
